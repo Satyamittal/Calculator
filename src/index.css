@@ -1,0 +1,64 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#screen
+{
+    background-color: #3E4C53;
+    height: 300px;
+    width: 350px;
+    
+    padding: 10px;
+
+    color: white;
+    
+    font-size: 30px;
+    text-align: end;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+
+    border-radius: 10px;
+}
+#display
+{
+    flex-grow: 1;
+}
+#result
+{
+    height: 30px;
+}
+table
+{
+    border-radius: 10px;
+}
+td
+{
+    width: 84.7px;
+    text-align: center;
+    height: 40px;
+
+    font-weight: bolder;
+}
+.buttons td
+{
+    background-color: rgb(222, 227, 227);
+}
+#equalTo
+{
+    background-color: rgb(231, 22, 56);
+}
+.arithmetic td
+{
+    background-color: rgb(202, 233, 233);
+
+}
